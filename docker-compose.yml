@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+
+  reportbot:
+    container_name: reportbot
+    restart: unless-stopped
+    image: reportbot:latest
+    volumes:
+      - ./src/final.md:/usr/src/report/final.md:ro
+      - /etc/localtime:/etc/localtime:ro
+      - ./generated/:/usr/src/report/generated/

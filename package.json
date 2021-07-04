@@ -1,0 +1,13 @@
+{
+  "name": "reportbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-execa": "^2.0.0",
+    "readable-stream": "^3.6.0",
+    "require-dir": "^1.2.0"
+  }
+}
